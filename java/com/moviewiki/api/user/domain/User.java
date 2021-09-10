@@ -1,5 +1,6 @@
 package com.moviewiki.api.user.domain;
 
+
         import java.util.Date;
 
         import javax.persistence.Column;
@@ -18,7 +19,8 @@ package com.moviewiki.api.user.domain;
 
 @Entity
 @Data
-@Table(name="Users")
+@NoArgsConstructor
+@Table(name="USERS")
 public class User {
 
     @Id
