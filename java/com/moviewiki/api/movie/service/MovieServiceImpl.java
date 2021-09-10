@@ -10,7 +10,8 @@ import java.util.Optional;
 
 @Service
 public class MovieServiceImpl implements MovieService{
-    @Autowired
+
+  @Autowired
     private MovieRepository movieRepository;
 
     @Override

@@ -19,11 +19,11 @@ import javax.persistence.*;
 public class Actor {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "ACTOR_SEQ_GENERATOR")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE,
+                    generator = "ACTOR_SEQ_GENERATOR")
     @Column(name = "actor_id")
     private Long actorId;
 
     private @Column(name = "actor_name")String actorName;
     private @Column(name = "actor_profile") String actorProfile;
 }
-

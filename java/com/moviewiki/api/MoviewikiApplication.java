@@ -10,4 +10,5 @@ public class MoviewikiApplication {
         SpringApplication.run(MoviewikiApplication.class, args);
     }
 
+
 }

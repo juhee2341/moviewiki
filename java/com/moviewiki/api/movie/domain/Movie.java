@@ -1,12 +1,12 @@
 package com.moviewiki.api.movie.domain;
 
 import java.util.Date;
-
 import javax.persistence.*;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Data
@@ -23,6 +23,7 @@ public class Movie {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE
             , generator = "MOVIE_SEQ_GENERATOR")
+
     @Column(name = "movie_id")
     private Long movieId;
 
